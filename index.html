@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lena's Website</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 60px;
+      background: linear-gradient(to right, #254f7c, #c067ad);
+      color: #fff;
+    }
+    h1 {
+      font-size: 64px;
+      letter-spacing: 4px;
+      margin: 0;
+      animation: fadeInDown 1s ease;
+    }
+    p {
+      font-size: 18px;
+      letter-spacing: 2px;
+      animation: fadeInUp 1s ease;
+    }
+
+    .my-text {
+        text-align: center;
+      font-size: 20px;
+      letter-spacing: 1px;
+      background-color: #979096;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin: 10px;
+
+}
+.social-links {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 10px;
+      color: #025ab8;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: #87a8b3;
+    }
+
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+    .portfolio-header {
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+    .portfolio-item {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .profile-picture {
+      position: absolute;
+      top: 70px;
+      left: 40px;
+      width: 150px;
+      height: 150px;
+      border-radius: 80%;
+      border: 1px solid #fff;
+      object-fit:cover;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="profile-picture" src="lenaheadshot.jpg" alt="Profile Picture">
+    <h1 class="animate-title">Lena Kaziska '25</h1>
+    <h2 class="animate-subtitle">Coding Projects & Graphic Design Work</p>
+
+  </header>
+
+  <div class="social-links">
+    <div class="my-text-container">
+      <p class="my-text">Schedule a call with me! -> <s>
+      <a href="https://calendar.app.google/RsraQCrTNjfW9uBE9" target="_blank">Google Calendar</a></s></p>
+      <p class="my-text">Let's connect! -> <s>
+      <a href="https://www.linkedin.com/in/lenakaziska/"target="_blank">LinkedIn</a></s></p>
+      <p class="my-text">My code in action -> <s>
+      <a href="https://github.com/codebylena"target="_blank">GitHub</a></s></p>
+      <p class="my-text">My full graphics portfolio -> 
+        <a href="https://drive.google.com/drive/folders/1KzG4rCHHBzf40-fV3f6Kh53zH4rfEpBO?usp=sharing"target="_blank"> Here </a></s></p>
+      <p class="my-text">Resume -> 
+        <a href="https://docs.google.com/document/d/11AvpWGO6hVv1cUfi8bmOuFt7MacQ5McV/edit?usp=sharing&ouid=115085734627269123651&rtpof=true&sd=true"target="_blank">Here </a></s></p>
+
+
+    
+
+  <div class="container">
+    <div class="portfolio-header">Projects</div>
+    <div class="portfolio-item">
+      <h2>Caesar Cipher: Encrypt & Decrypt</h2>
+      <p>Ever wanted to send your friends messages that no one else can read? Try out this program and keep that shift value between
+        you and your friends! </p>
+        HOW TO USE: User selects either encryption or decryption. The user will then input the appropriate sentence to decrypt or encrypt
+        and will then be asked the shift amount. The correct encryption/decryption sentence will be presented.
+        The software loops until the user wants to exist. </p>
+      <a href="https://github.com/codebylena/Python/blob/main/CaesarCipherEncryption.py"target="_blank">Click here to view on GitHub </a></s></p>
+    </div>
+
+    <div class="portfolio-item">
+      <h2>Grade Calculator</h2>
+      <p> Howdy fellow CSCE 120/121 students! Use this calculator to find out where you are grade-wise during your semester! </p>
+        HOW TO USE: User will input their grades corresponding to the chart given (exam, assignment, etc). After inputting grades, the user will decide when 
+        they are done and the output will give the user's final grade. </p>
+      <a href="https://github.com/codebylena/Lena_Cplus/blob/main/grade_calculator.cpp"target="_blank">Click here to view on GitHub </a></s></p>
+    </div>
+
+    <div class="portfolio-header">Graphic Design Highlights</div>
+    <div class="portfolio-item">
+      <h2>The Rec Sports Experience</h2>
+      <p>This is a booklet sized informational print that took around 2 months to complete. This booklet will be printed for many years to come as this will be handed out to incoming freshman or any new-comers at the Rec Center.</p>
+      <embed src="recexperience.pdf" type="application/pdf" width="80%" height="600px" />
+    </div>
+
+    <div class="portfolio-item">
+      <h2>RecLife Magazine Summer 2023</h2>
+      <p>This is the Summer 2023 edition of the RecLife Magazine. These are printed and shipped off to donors and alumni affiliated with the Rec. Every semester there is a new edition sent out with cool events/news that relate to our Rec Centers.</p>
+      <embed src="summerreclife-compressed.pdf" type="application/pdf" width="80%" height="600px" />
+    </div>
+
+    <div class="portfolio-item">
+        <h2>RecLife Magazine Fall 2022</h2>
+        <p>This is the Fall 2022 edition of the RecLife Magazine. These are printed and shipped off to donors and alumni affiliated with the Rec. Every semester there is a new edition sent out with cool events/news that relate to our Rec Centers.</p>
+        <embed src="fallreclife.pdf" type="application/pdf" width="80%" height="600px" />
+      </div>
+
+
+        
+      </div>
+      <meta http-equiv='cache-control' content='no-cache'> 
+      <meta http-equiv='expires' content='0'> 
+      <meta http-equiv='pragma' content='no-cache'>
+
+    
+  </div>
+</body>
+</html>
+
